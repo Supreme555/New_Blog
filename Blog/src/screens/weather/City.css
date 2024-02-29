@@ -1,0 +1,49 @@
+.city-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  .city-icon {
+    position: absolute;
+    left: 15px;
+  }
+  .city-input {
+    width: 100%;
+    padding: 15px 50px;
+    border-radius: 25px;
+    outline: 0;
+    border: 1px solid #ccc;
+  }
+  .city-input::placeholder {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  input[type="text"] {
+    font-size: 16px;
+  }
+  
+  .suggestions {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 10%) 0px 1px 3px;
+    width: 98%;
+    left: 1%;
+    top: 3.35rem;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 11;
+  }
+  .sugg-item {
+    color: rgb(32, 121, 201);
+    text-decoration: none;
+    padding: 0.6rem 1rem;
+    display: block;
+    text-align: left;
+    border-bottom: 1px dotted rgb(204, 204, 204);
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  

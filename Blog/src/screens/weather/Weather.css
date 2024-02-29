@@ -1,0 +1,164 @@
+.spinner {
+    display: block;
+    margin: 0 auto !important;
+}
+
+.desc {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 10%) 1px 1px 3px;
+    border-radius: 15px;
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.current-weather h2 {
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: rgb(114, 126, 142);
+}
+
+.convert-temp {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    cursor: pointer;
+    inset: 0px;
+    transition: all 0.4s ease 0s;
+    border-radius: 55px;
+    background-color: rgb(119, 177, 199);
+}
+
+.convert-temp .off {
+    padding-left: 15px;
+}
+
+.convert-temp .on {
+    padding-right: 15px;
+}
+
+.convert-temp .on,
+.convert-temp .off {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+}
+
+.convert-temp .btn {
+    position: absolute;
+    height: 16px;
+    width: 18px;
+    left: 2px;
+    top: 2px;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.4s ease 0s;
+    border-radius: 44px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1.5rem;
+    width: 25rem;
+}
+
+.item1 h4 small {
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 10px;
+    position: absolute;
+    bottom: -5px;
+}
+
+.item1 h4 {
+    position: relative;
+    font-weight: 600;
+    font-size: 1.75rem;
+    color: rgb(57, 107, 174);
+    margin-bottom: 2rem;
+}
+
+.content .item1 img {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+}
+
+.item1 span {
+    font-weight: 200;
+    font-size: 7rem;
+    color: rgb(74, 111, 161);
+    margin-left: 1.5rem;
+    line-height: 1;
+}
+
+.item1 h3 {
+    font-size: 1.375rem;
+    text-align: left;
+    color: rgb(123, 152, 178);
+}
+
+.item2 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.item2 p {
+    font-size: 1.4rem;
+    color: rgb(74, 111, 161);
+    margin-bottom: 2rem;
+}
+
+.item2 .descrip {
+    display: flex;
+    margin-bottom: 2rem;
+    width: 2rem;
+}
+
+.item2 .descrip .item {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: rgb(58, 134, 202);
+    margin-top: 0.8rem;
+    margin-right: 2.5rem;
+}
+
+.statist {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    min-width: 300px;
+    width: 100%;
+}
+
+.statist div {
+    color: rgb(123, 152, 178);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 1.1rem;
+    width: 8rem;
+}
+
+.statist span {
+    color: rgb(48, 128, 200);
+    font-weight: 500;
+    font-size: 1rem;
+}
