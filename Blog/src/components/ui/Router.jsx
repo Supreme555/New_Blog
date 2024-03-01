@@ -79,5 +79,4 @@ const mapDispatchToProps = (dispatch) => ({
     apiArticles: (articles) => dispatch(apiArticles(articles)),
 });
 
-
 export default connect(null, mapDispatchToProps)(App);
