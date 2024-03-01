@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { search } from './actionForm';
+import { search } from '../../../app/index';
 import { connect } from 'react-redux';
 class MyForm extends Component {
   constructor(props) {

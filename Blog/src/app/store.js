@@ -25,5 +25,6 @@ const reduxToolkitStore = configureStore({
     },
 });
 
-export default { traditionalStore, reduxToolkitStore };
+export { traditionalStore, reduxToolkitStore };
+export default traditionalStore;
 // export default reduxToolkitStore;

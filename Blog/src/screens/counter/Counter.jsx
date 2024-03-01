@@ -1,6 +1,6 @@
 import styles from './Counter.module.css'
 import styles_g from '../../components/styles/Global.module.css'
-import NavBar from '../../components/navBar/NavBar';
+// import NavBar from '../../components/navBar/NavBar';
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import {
@@ -18,7 +18,7 @@ export default function Counter() {
 
     return (
         <main>
-            <NavBar />
+            {/* <NavBar /> */}
             <div className={styles.row}>
                 <button
                     className={styles.button}

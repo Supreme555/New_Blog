@@ -27,7 +27,7 @@ export default function NavBar() {
                     <li className={`${styles.navbar__item} ${isActive('/count/')}`} onClick={() => nav('/count/')} >Счётчик</li>
                     <li className={`${styles.navbar__item} ${isActive('/weather/')}`} onClick={() => nav('/weather/')} >Погода</li>
                     <li className={`${styles.navbar__item} ${isActive('/note/')}`} onClick={() => nav('/note/')} >Заметки</li>
-                    <li className={`${styles.navbar__item} ${isActive('/walletconver/')}`} onClick={() => nav('/walletconver/')} >Конвертер валют</li>
+                    {/* <li className={`${styles.navbar__item} ${isActive('/walletconver/')}`} onClick={() => nav('/walletconver/')} >Конвертер валют</li> */}
                 </ul>
             </div>
         </nav>

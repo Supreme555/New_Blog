@@ -10,7 +10,6 @@
     align-items: center;
     list-style: none;
 }
-
 .navbar__item {
     display: flex;
     justify-content: center;
@@ -24,7 +23,10 @@
 .navbar__item:hover {
     color: #fff;
 }
-
+ul {
+    margin: 0;
+    font-size: 16px;
+}
 .navbar__item img {
     height: 28px;
 }

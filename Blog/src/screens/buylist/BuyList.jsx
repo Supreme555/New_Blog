@@ -1,7 +1,7 @@
 // import React from 'react';
 // import styles from './BuyList.module.css'
 // import styles_g from '../../components/styles/Global.module.css'
-import NavBar from '../../components/navBar/NavBar';
+// import NavBar from '../../components/navBar/NavBar';
 
 // export default function BuyList() {
 //     return (
@@ -73,7 +73,7 @@ class NotesApp extends Component {
 
         return (
             <>
-                <NavBar />
+                {/* <NavBar /> */}
                 <div className="container mt-5">
                     <h1>Заметки</h1>
                     <form onSubmit={this.handleSubmit}>

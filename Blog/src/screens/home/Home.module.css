@@ -1,0 +1,23 @@
+.img_bg {
+    /* background-image: url(https://cdnn11.img.sputnik.by/img/07e6/03/08/1061137081_0:321:3071:2048_1920x0_80_0_0_3131be93fc532416405007533b0b912d.jpg); */
+    background-image: url(https://primamediamts.servicecdn.ru/f/original/4251/4250159.jpg?407a6f81a146237103285ef8004a7f80);
+    width: 100%;
+    height: 92vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    filter: blur(2px);
+    filter: brightness(0.5);
+}
+
+h1 {
+    font-size: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 370px;
+    color: #eee;
+}
